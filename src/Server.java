@@ -64,13 +64,11 @@ public class Server {
             String server_host_name = server_inet_address.getHostName();
             String server_ip_address = server_inet_address.getHostAddress();
 
-
-
-            System.out.println ("Server hostname is " + server_host_name ) ;
-            System.out.println("IP Address: " + server_ip_address);
-            System.out.println ("Server port is 5155" ) ;
+            System.out.println ("Server Hostname: " + server_host_name ) ;
+            System.out.println("Server IP Address: " + server_ip_address);
+            System.out.println ("Server port: 5155" ) ;
         }
-        
+
         catch (java.net.UnknownHostException e){
             System.out.println(e);
             System.exit(1);
